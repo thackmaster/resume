@@ -3,55 +3,47 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Wesley Thacker
+    tagline: System Administrator
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: westhacker@icloud.com
+    #phone: 012 345 6789
+    timezone: America/Denver
+    #citizenship: America
+    website: wesleythacker.com #do not add http://
+    linkedin: wesley-thacker
+    #xing: alandoe
+    github: thackmaster
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    twitter: '@realThackmaster'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
           level: Native
-
-        - idiom: French
-          level: Professional
-
         - idiom: Spanish
-          level: Professional
+          level: Beginner
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
         - item: Snowboarding
           link:
-
-        - item: Cooking
+        - item: Camping
           link:
 
 career-profile:
@@ -63,31 +55,21 @@ career-profile:
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: BS, Cloud Computing
+        university: Western Governors University
+        time: July 2023 - June 2025
+      - degree: Associate of Science
+        university: Community College of the Air Force
+        time: January 2022 - January 2026
+        #details: 
+      - degree: General Studies
+        university: Utah State University
+        time: September 2018 - May 2019
+        #details: |
 
 experiences:
     title: Experiences
@@ -140,36 +122,15 @@ certifications:
           credentialid: 111-222
           credentialurl: www.google.com
           credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
+          #details: |
+        - name: Security+
+          start: June 2022
+          end: June 2025
+          organization: CompTIA
           credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          credentialurl: www.certmetrics.com/comptia/public/verification.aspx
+          credentialname: 
+          #details: |
 
 projects:
     title: Projects
@@ -198,24 +159,16 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+    #title: OSS Contributions
+    #intro: >
+      #You can list your open source software contributions in this
+      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    #contributions:
+      #- title: Tempo
+        #link: "#"
+        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
 publications:
     title: Publications
